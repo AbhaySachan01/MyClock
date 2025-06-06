@@ -5,7 +5,7 @@ import styles from '../Styles/NavBar.module.css';
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => setIsOpen(!isOpen);
+  const toggleMenu = () => setIsOpen(isOpen);
 
   return (
     <nav className={styles.navbar}>
